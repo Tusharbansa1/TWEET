@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tweet</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="tweet.js"></script>
+</head>
+<body>
+<h1 >Get Quote</h1>
+
+<div class="container">
+
+  <span class="quote"></span>
+  <br />
+  <span class="author"></span>
+
+
+<div class="buttons">  
+<button class="btn btn-primary xyz">Quote</button>
+
+<button class="btn btn-primary xyz1" >Tweet</button>
+</div>
+  </div>
+<!-- $(document).ready(function(){
+   var ranauthor;
+  var ranquote;
+  var randomget ;
+  getdata();
+  function getdata(){
+    var quote = ["night is  falling" , "day is shining" , "right things happens " , "yeah this is"];
+    var author = ["author1 " , "author2" , "author3" , "author4"];
+    
+     randomget = Math.floor(Math.random()*quote.length);
+     ranquote  = quote[randomget];
+     ranauthor = author[randomget];
+    
+    $(".quote").text(ranquote);
+    $(".author").text(ranauthor);
+  }
+  $(".xyz1").on("click" , function(){
+    window.open("https://twitter.com/intent/tweet?text=" +ranquote + " " +ranauthor );
+  });
+  $(".xyz").on("click" , function(){
+     getdata();
+  });
+  
+  
+});
+ -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
